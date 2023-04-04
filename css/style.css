@@ -1,0 +1,266 @@
+:root {
+  --primary: #30c4c9;
+  --secondary: #130e0e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.fuenteG {
+  font-family: "Signika Negative", sans-serif;
+}
+#inicio {
+  scroll-margin-top: 5.4em;
+}
+#educacion {
+  scroll-margin-top: 5.4em;
+}
+#tecno {
+  scroll-margin-top: 5.4em;
+}
+#expe {
+  scroll-margin-top: 5.4em;
+}
+#proyectos {
+  scroll-margin-top: 5.4em;
+}
+/* nav */
+
+.btnNav {
+  margin: 0.5em;
+  background: transparent;
+  color: var(--primary);
+  border: none;
+  /* border-radius: 0.625em; */
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.btnNav:hover {
+  color: var(--primary);
+}
+.btnNav::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: var(--primary);
+  position: absolute;
+  transition: all 0.5s;
+  left: 0;
+  bottom: 0px;
+}
+.btnNav:hover::before {
+  width: 95%;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  padding: 1px;
+  border: 2px solid var(--primary);
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--primary);
+  border-radius: 12px;
+}
+button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--primary);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+button:hover::before {
+  width: 105%;
+}
+
+button:hover {
+  color: #111;
+}
+.img-AP {
+  width: 80px;
+  height: 50px;
+  object-fit: contain;
+}
+.img-Inti {
+  width: 120px;
+  height: 50px;
+  object-fit: contain;
+}
+.img-red {
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
+}
+/* header */
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 22px;
+}
+.img-rodri {
+  width: 190px;
+  border-radius: 50%;
+  border: 4px solid var(--primary);
+  object-fit: contain;
+}
+.container-title {
+  border-radius: 19px;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+/* section experiencia */
+.tittle-section {
+  width: 190px;
+  border-radius: 9px;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.img-estrella img {
+  width: 100px;
+  object-fit: contain;
+}
+hr {
+  color: var(--primary);
+  border-radius: 8px;
+}
+/* Section Habilidades */
+.img-produc-2 {
+  width: auto;
+  height: 60px;
+  object-fit: contain;
+}
+.card-ofertas {
+  width: 150px;
+  box-shadow: 0.7em 0.7em 0.7em #0000005e;
+  border-radius: 10px;
+  transition: all 300ms;
+}
+.card-ofertas:hover {
+  /*  opacity: 0.8; */
+  transform: scale(1.1);
+  border: var(--primary) 0.1em solid;
+}
+
+/* seccion proyectos */
+
+.contenedor0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contenedor .tarjeta {
+  position: relative;
+  width: 305px;
+  height: 195px;
+  background-color: rgb(242, 250, 247);
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 20px #30c4c9;
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.contenedor .tarjeta:hover {
+  height: 300px;
+}
+
+.contenedor .tarjeta .image {
+  cursor: pointer;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  background-color: #fff;
+  border-radius: 15px;
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.contenedor .tarjeta .flecha {
+  cursor: pointer;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 15px;
+  top: -40%;
+  left: 8px;
+  z-index: 1;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+.contenedor .tarjeta:hover .flecha {
+  visibility: hidden;
+  transition-delay: 0.1s;
+}
+.contenedor .tarjeta .image img {
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.contenedor .tarjeta .divTexto {
+  position: relative;
+  top: -185px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.contenedor .tarjeta:hover .divTexto {
+  margin-top: 30px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+/* footer */
+i {
+  font-size: 25px;
+  color: var(--secondary);
+}
+.text-primario {
+  color: var(--primary);
+}
+.text-primario:hover {
+  color: var(--primary);
+}
+@media screen and (max-width: 767px) {
+  .card-ofertas {
+    width: 100px;
+  }
+}

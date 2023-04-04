@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/jpg" href="img/icon.png" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container-fluid mx-3">
+        <a href="#">
+          <p class="my-auto mx-2 fuenteG fw-bold text-primario">
+            Mi Portfolio Web
+          </p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto justify-content-end">
+            <li class="nav-item">
+              <a href="#inicio">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav" type="submit">
+                  Inicio
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#educacion">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Educación</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#proyectos">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Proyectos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#tecno">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Tecnologías</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container p-5 mt-5" id="inicio">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col mt-5 text-md-end text-center align-self-center">
+          <img src="img/rodrigo.jpg" class="img-rodri img-fluid" />
+        </div>
+        <header class="col align-self-center">
+          <div class="container-title text-center p-3 fuenteG fw-bold">
+            <h1>Mi Portfolio</h1>
+            <h2>Desarrollador Web Full Stack Jr</h2>
+          </div>
+          <div class="mt-4">
+            <p>
+              ¡Hola! Soy Ezequiel Rodrigo Romano, Desarrollador Web Full Stack
+              Jr y Técnico Superior en Computación y Redes. Este Portfolio
+              muestra mi trabajo y habilidades como desarrollador/a.
+              ¡Disfrútalo!
+            </p>
+            <div class="container text-center">
+              <a
+                href="https://www.linkedin.com/in/rodrigo-romano22/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin mx-1"></i>
+              </a>
+              <a href="https://github.com/RodrigoProgram22" target="_blank">
+                <i class="bi bi-github mx-1"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/rodri_oficial001/"
+                target="_blank"
+              >
+                <i class="bi bi-instagram mx-1"></i>
+              </a>
+            </div>
+          </div>
+        </header>
+        <div class="col align-self-center">
+          <img src="img/programing2.gif" class="img-fluid" />
+        </div>
+      </div>
+    </article>
+    <article class="container p-3 my-3" id="educacion">
+      <h3 class="fuenteG">Educación</h3>
+      <hr size="7" />
+      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
+        <div class="col col-md-4 img-estrella text-md-end text-center">
+          <a href="https://iesconcepcion.edu.ar/" target="_blank">
+            <img src="img/edu/ies.png" />
+          </a>
+        </div>
+        <div class="col col-md-6">
+          <p class="text-md-start text-center">
+            Titulo de Técnico Superior en Computación y Redes en el Instituto de
+            Enseñanza Superior Concepción Tucuman Argentina. Recibido en el año
+            2021.
+          </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
+        <div class="col col-md-4 img-estrella text-md-end text-center">
+          <a
+            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            target="_blank"
+          >
+            <img src="img/edu/argp.jpg" />
+          </a>
+        </div>
+        <div class="col col-md-6">
+          <p class="text-md-start text-center">
+            Certificado de Programador Web Full Stack en el curso de Argentina
+            Programa. Año 2022.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article class="container p-3 my-3" id="proyectos">
+      <h3 class="fuenteG">Mis Proyectos</h3>
+      <hr size="7" />
+      <div class="row row-cols-1 row-cols-md-2 g-4 mx-5 mt-2 fuenteG">
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a href="https://mi-tec.netlify.app" target="_blank">
+                  <img src="img/proyectos/mitec.png" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>Mi Tec</h3>
+                <p>
+                  Mi Tienda Online Full Stack. Realizado el 5 de Abril de 2023.
+                </p>
+                <a href="https://mi-tec.netlify.app" target="_blank">
+                  <button class="mt-2 fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a href="https://climaarg.netlify.app/" target="_blank">
+                  <img src="img/proyectos/img-clima.jpg" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>ClimaArg</h3>
+                <p>
+                  Pagina Web del Clima. Realizada el 20 de Diciembre de 2021.
+                </p>
+                <a href="https://climaarg.netlify.app/" target="_blank">
+                  <button class="mt-2 fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a href="https://rodrigobar.netlify.app/" target="_blank">
+                  <img src="img/proyectos/img-restobar.jpg" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>RestoBar</h3>
+                <p>
+                  Plantilla de un restaurante o bar. Realizada el 20 de Junio de
+                  2022.
+                </p>
+                <a href="https://rodrigobar.netlify.app/" target="_blank">
+                  <button class="mt-2 fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a href="https://migaleriaweb.netlify.app/" target="_blank">
+                  <img src="img/proyectos/img-migaleria.jpg" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>Mi Galeria Web</h3>
+                <p>Mi galeria de fotos web. Realizada el 20 de Mayo de 2021.</p>
+                <a href="https://migaleriaweb.netlify.app/" target="_blank">
+                  <button class="fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a href="https://rodribar.netlify.app/" target="_blank">
+                  <img src="img/proyectos/img-restobar-2.jpg" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>RestoBar v2.0</h3>
+                <p>
+                  Plantilla mejorada con Angular. Realizada el 20 de Abril de
+                  2022.
+                </p>
+                <a href="https://rodribar.netlify.app/" target="_blank">
+                  <button class="mt-2 fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col contenedor0">
+          <div class="contenedor">
+            <div class="tarjeta">
+              <div class="image">
+                <a
+                  href="https://veterinariacuki3.netlify.app/index.html"
+                  target="_blank"
+                >
+                  <img src="img/proyectos/img-veterinaria.jpg" />
+                </a>
+              </div>
+              <div class="text-center flecha text-dark">
+                <i class="bi bi-caret-down" style="font-size: 32px"></i>
+              </div>
+              <div class="divTexto">
+                <h3>Veterinaria Cuki</h3>
+                <p>
+                  Plantilla de una Veterinaria. Realizada el 20 de Abril de
+                  2022.
+                </p>
+                <a
+                  href="https://veterinariacuki3.netlify.app/index.html"
+                  target="_blank"
+                >
+                  <button class="mt-2 fw-bold" type="submit">Ir</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="container my-4" id="tecno">
+      <div class="container mx-auto p-3">
+        <h3 class="fuenteG">Tecnologías</h3>
+        <hr size="7" />
+        <div class="row row-cols-2 row-cols-md-4 g-4 mx-5 mt-2 fuenteG">
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/HTML"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/html.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/HTML"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  HTML
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/JavaScript-logo.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  JavaScript
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/typescript.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  TypeScript
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://angular.io/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/angular.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  target="_blank"
+                  href="https://angular.io/"
+                  class="fw-bold text-primario"
+                >
+                  Angular
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/CSS"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/logocss.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/CSS"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  CSS
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/bootstrap-logo.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  Bootstrap
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://git-scm.com/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/git.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://git-scm.com/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  Git
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/github.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://www.java.com/es/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/java.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://www.java.com/es/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  Java
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://spring.io/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/springboot.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://spring.io/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  SpringBoot
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://www.mysql.com/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/mysql.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://www.mysql.com/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  MySql
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://www.adobe.com/ar/products/photoshop.html"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/logoPhotoshop.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://www.adobe.com/ar/products/photoshop.html"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  Photoshop
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-ofertas mx-auto text-center">
+              <div class="container text-center p-2">
+                <a
+                  href="https://www.figma.com/"
+                  target="_blank"
+                  class="text-center"
+                >
+                  <img
+                    class="img-produc-2 img-fluid"
+                    src="/img/icons/figma.png"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://www.figma.com/"
+                  target="_blank"
+                  class="fw-bold text-primario"
+                >
+                  Figma
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="bg-dark p-3 text-center fuenteG">
+        <div class="container text-center">
+          <a
+            href="https://www.linkedin.com/in/rodrigo-romano22/"
+            target="_blank"
+          >
+            <i class="bi bi-linkedin mx-1" style="color: white"></i>
+          </a>
+          <a href="https://github.com/RodrigoProgram22" target="_blank">
+            <i class="bi bi-github mx-1" style="color: white"></i>
+          </a>
+          <a href="https://www.instagram.com/rodri_oficial001/" target="_blank">
+            <i class="bi bi-instagram mx-1" style="color: white"></i>
+          </a>
+        </div>
+        <div class="my-4 mx-auto">
+          <a href="mailto:rodrigoprograma22@gmail.com" target="_blank">
+            <p class="text-primario">rodrigoprograma22@gmail.com</p>
+          </a>
+        </div>
+        <div class="mx-auto mt-3">
+          <p class="text-light">
+            © 2023 Todos los derechos reservados: Ezequiel Rodrigo Romano
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
