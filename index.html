@@ -20,7 +20,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark backgNav">
       <div class="container-fluid mx-3">
         <a href="#">
           <p class="my-auto mx-2 fuenteG fw-bold text-primario">
@@ -68,15 +68,19 @@
     </nav>
     <article class="container p-5 mt-5" id="inicio">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col mt-5 text-md-end text-center align-self-center">
+        <div
+          class="col mt-5 text-md-end text-center align-self-center focus-in-expand"
+        >
           <img src="img/rodrigo.jpg" class="img-rodri img-fluid" />
         </div>
         <header class="col align-self-center">
-          <div class="container-title text-center p-3 fuenteG fw-bold">
+          <div
+            class="container-title text-center p-3 fuenteG fw-bold focus-in-expand"
+          >
             <h1>Mi Portfolio</h1>
             <h2>Desarrollador Web Full Stack Jr</h2>
           </div>
-          <div class="mt-4">
+          <div class="mt-4 focus-in-expand">
             <p>
               ¡Hola! Soy Ezequiel Rodrigo Romano, Desarrollador Web Full Stack
               Jr y Técnico Superior en Computación y Redes. Este Portfolio
@@ -96,42 +100,8 @@
             </div>
           </div>
         </header>
-        <div class="col align-self-center">
-          <img src="img/programing2.gif" class="img-fluid" />
-        </div>
-      </div>
-    </article>
-    <article class="container p-3 my-3" id="educacion">
-      <h3 class="fuenteG">Educación</h3>
-      <hr size="7" />
-      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
-        <div class="col col-md-4 img-estrella text-md-end text-center">
-          <a href="https://iesconcepcion.edu.ar/" target="_blank">
-            <img src="img/edu/ies.png" />
-          </a>
-        </div>
-        <div class="col col-md-6">
-          <p class="text-md-start text-center">
-            Titulo de Técnico Superior en Computación y Redes en el Instituto de
-            Enseñanza Superior Concepción Tucuman Argentina. Recibido en el año
-            2021.
-          </p>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
-        <div class="col col-md-4 img-estrella text-md-end text-center">
-          <a
-            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
-            target="_blank"
-          >
-            <img src="img/edu/argp.jpg" />
-          </a>
-        </div>
-        <div class="col col-md-6">
-          <p class="text-md-start text-center">
-            Certificado de Programador Web Full Stack en el curso de Argentina
-            Programa. Año 2022.
-          </p>
+        <div class="col align-self-center focus-in-expand">
+          <img src="img/programing1-unscreen.gif" class="img-fluid" />
         </div>
       </div>
     </article>
@@ -286,13 +256,47 @@
         </div>
       </div>
     </article>
+    <article class="container p-3 my-3" id="educacion">
+      <h3 class="fuenteG">Educación</h3>
+      <hr size="7" />
+      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
+        <div class="col col-md-4 img-estrella text-md-end text-center">
+          <a href="https://iesconcepcion.edu.ar/" target="_blank">
+            <img src="img/edu/ies.png" />
+          </a>
+        </div>
+        <div class="col col-md-6">
+          <p class="text-md-start text-center">
+            Titulo de Técnico Superior en Computación y Redes en el Instituto de
+            Enseñanza Superior Concepción Tucuman Argentina. Recibido en el año
+            2021.
+          </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
+        <div class="col col-md-4 img-estrella text-md-end text-center">
+          <a
+            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            target="_blank"
+          >
+            <img src="img/edu/argp.jpg" />
+          </a>
+        </div>
+        <div class="col col-md-6">
+          <p class="text-md-start text-center">
+            Certificado de Programador Web Full Stack en el curso de Argentina
+            Programa. Año 2022.
+          </p>
+        </div>
+      </div>
+    </article>
     <article class="container my-4" id="tecno">
       <div class="container mx-auto p-3">
         <h3 class="fuenteG">Tecnologías</h3>
         <hr size="7" />
         <div class="row row-cols-2 row-cols-md-4 g-4 mx-5 mt-2 fuenteG">
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://developer.mozilla.org/es/docs/Web/HTML"
@@ -317,7 +321,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://developer.mozilla.org/es/docs/Web/JavaScript"
@@ -342,7 +346,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://www.typescriptlang.org/"
@@ -367,7 +371,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://angular.io/"
@@ -392,7 +396,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://developer.mozilla.org/es/docs/Web/CSS"
@@ -417,7 +421,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
@@ -442,7 +446,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://git-scm.com/"
@@ -467,7 +471,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://github.com/"
@@ -492,7 +496,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://www.java.com/es/"
@@ -517,7 +521,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://spring.io/"
@@ -542,7 +546,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://www.mysql.com/"
@@ -567,7 +571,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://www.adobe.com/ar/products/photoshop.html"
@@ -592,7 +596,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card-ofertas mx-auto text-center">
+            <div class="card-tecno mx-auto text-center">
               <div class="container text-center p-2">
                 <a
                   href="https://www.figma.com/"
@@ -619,32 +623,27 @@
         </div>
       </div>
     </article>
-    <footer>
-      <div class="bg-dark p-3 text-center fuenteG">
-        <div class="container text-center">
-          <a
-            href="https://www.linkedin.com/in/rodrigo-romano22/"
-            target="_blank"
-          >
-            <i class="bi bi-linkedin mx-1 iconFooter"></i>
-          </a>
-          <a href="https://github.com/RodrigoProgram22" target="_blank">
-            <i class="bi bi-github mx-1 iconFooter"></i>
-          </a>
-          <a href="https://www.instagram.com/rodri_oficial001/" target="_blank">
-            <i class="bi bi-instagram mx-1 iconFooter"></i>
-          </a>
-        </div>
-        <div class="my-4 mx-auto">
-          <a href="mailto:rodrigoprograma22@gmail.com" target="_blank">
-            <p class="text-primario">rodrigoprograma22@gmail.com</p>
-          </a>
-        </div>
-        <div class="mx-auto mt-3">
-          <p class="text-light">
-            © 2023 Todos los derechos reservados: Ezequiel Rodrigo Romano
-          </p>
-        </div>
+    <footer class="backgNav p-3 text-center fuenteG">
+      <div class="container text-center">
+        <a href="https://www.linkedin.com/in/rodrigo-romano22/" target="_blank">
+          <i class="bi bi-linkedin mx-1 iconInit"></i>
+        </a>
+        <a href="https://github.com/RodrigoProgram22" target="_blank">
+          <i class="bi bi-github mx-1 iconInit"></i>
+        </a>
+        <a href="https://www.instagram.com/rodri_oficial001/" target="_blank">
+          <i class="bi bi-instagram mx-1 iconInit"></i>
+        </a>
+      </div>
+      <div class="my-4 mx-auto">
+        <a href="mailto:rodrigoprograma22@gmail.com" target="_blank">
+          <p class="text-dark">rodrigoprograma22@gmail.com</p>
+        </a>
+      </div>
+      <div class="mx-auto mt-3">
+        <p class="text-dark">
+          © 2023 Todos los derechos reservados: Ezequiel Rodrigo Romano
+        </p>
       </div>
     </footer>
     <script src="js/bootstrap.min.js"></script>

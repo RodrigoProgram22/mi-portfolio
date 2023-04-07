@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(242, 250, 247);
+}
 a {
   text-decoration: none;
 }
@@ -29,7 +32,13 @@ a {
   scroll-margin-top: 5.4em;
 }
 /* nav */
-
+.backgNav {
+  background: rgba(124, 204, 185, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 .btnNav {
   margin: 0.5em;
   background: transparent;
@@ -136,12 +145,6 @@ h2 {
   opacity: 0.7;
 }
 /* section experiencia */
-.tittle-section {
-  width: 190px;
-  border-radius: 9px;
-  background-color: var(--primary);
-  color: var(--secondary);
-}
 
 .img-estrella img {
   width: 100px;
@@ -157,13 +160,13 @@ hr {
   height: 60px;
   object-fit: contain;
 }
-.card-ofertas {
+.card-tecno {
   width: 150px;
-  box-shadow: 0.7em 0.7em 0.7em #0000005e;
+  box-shadow: 0 10px 15px #30c4c9;
   border-radius: 10px;
   transition: all 300ms;
 }
-.card-ofertas:hover {
+.card-tecno:hover {
   /*  opacity: 0.8; */
   transform: scale(1.1);
   border: var(--primary) 0.1em solid;
@@ -265,15 +268,23 @@ i {
 .text-primario:hover {
   color: var(--primary);
 }
-.iconFooter {
-  color: aliceblue;
-  transition: all 300ms;
-}
-.iconFooter:hover {
-  opacity: 0.7;
-}
 @media screen and (max-width: 767px) {
   .card-ofertas {
     width: 100px;
+  }
+}
+/* Animacion focus*/
+.focus-in-expand {
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
   }
 }
