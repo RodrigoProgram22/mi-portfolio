@@ -269,7 +269,7 @@ i {
   color: var(--primary);
 }
 @media screen and (max-width: 767px) {
-  .card-ofertas {
+  .card-tecno {
     width: 100px;
   }
 }
