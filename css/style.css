@@ -51,14 +51,11 @@ a {
   z-index: 1;
   overflow: hidden;
 }
-.btnNav:hover {
-  color: var(--primary);
-}
 .btnNav::before {
   content: "";
   width: 0%;
   height: 3px;
-  background: var(--primary);
+  background: var(--secondary);
   position: absolute;
   transition: all 0.5s;
   left: 0;
@@ -75,7 +72,7 @@ button {
   font-weight: 500;
   color: #000;
   background-color: #fff;
-  border: none;
+  border: solid 1px var(--secondary);
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
@@ -87,6 +84,7 @@ button:hover {
   background-color: var(--primary);
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
+  border:none;
   transform: translateY(-7px);
 }
 
