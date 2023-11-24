@@ -44,18 +44,23 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#educacion">
-                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Educación</p>
-              </a>
-            </li>
-            <li class="nav-item">
               <a href="#proyectos">
                 <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Proyectos</p>
               </a>
             </li>
             <li class="nav-item">
+              <a href="#educacion">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Educación</p>
+              </a>
+            </li>
+            <li class="nav-item">
               <a href="#tecno">
                 <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Tecnologías</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacto">
+                <p class="mt-2 mx-2 fuenteG fw-bold btnNav">Contacto</p>
               </a>
             </li>
           </ul>
@@ -77,12 +82,12 @@
           <div
             class="container-title text-center p-3 fuenteG fw-bold focus-in-expand"
           >
-            <h1>Mi Portfolio</h1>
+            <h1>Rodrigo Romano</h1>
             <h2>Desarrollador Web Full Stack Jr</h2>
           </div>
           <div class="mt-4 focus-in-expand">
             <p>
-              ¡Hola! Soy Ezequiel Rodrigo Romano, Desarrollador Web Full Stack
+              ¡Hola! Soy Rodrigo Ezequiel Romano, Desarrollador Web Full Stack
               Jr y Técnico Superior en Computación y Redes. Este Portfolio
               muestra mi trabajo y habilidades como desarrollador.
             </p>
@@ -296,7 +301,10 @@
           <div class="contenedor">
             <div class="tarjeta">
               <div class="image">
-                <a href="https://abogacia-plantilla.netlify.app/" target="_blank">
+                <a
+                  href="https://abogacia-plantilla.netlify.app/"
+                  target="_blank"
+                >
                   <img
                     src="img/proyectos/plant-abogado.png"
                     alt="captura del proyecto"
@@ -308,7 +316,9 @@
               </div>
               <div class="divTexto">
                 <h3>Plantilla Abogados</h3>
-                <p>Pagina Web para Abogados. Realizada el 30 de Octubre de 2023.</p>
+                <p>
+                  Pagina Web para Abogados. Realizada el 30 de Octubre de 2023.
+                </p>
                 <a
                   href="https://abogacia-plantilla.netlify.app/"
                   class="mt-2 fw-bold a-button"
@@ -761,6 +771,78 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="container p-3 my-3" id="contacto">
+      <h3 class="fuenteG">Contacto</h3>
+      <hr />
+      <div
+        class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center align-items-center"
+      >
+        <div class="col secundario">
+          <div class="d-flex justify-content-center my-2">
+            <div class="card">
+              <span class="title fuenteG">Deja tu mensaje</span>
+              <form
+                class="form fuenteG"
+                action="https://formsubmit.co/rodrigoprograma22@gmail.com"
+                method="POST"
+              >
+                <div class="group">
+                  <input
+                    placeholder=""
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                  <label for="name">Nombre</label>
+                </div>
+                <div class="group">
+                  <input
+                    placeholder=""
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                  <label for="email">Email</label>
+                </div>
+                <div class="group">
+                  <input
+                    placeholder=""
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                  />
+                  <label for="phone">Telefono</label>
+                </div>
+                <div class="group">
+                  <textarea
+                    placeholder=""
+                    id="comment"
+                    name="comment"
+                    rows="5"
+                    required
+                  ></textarea>
+                  <label for="comment">Mensaje</label>
+                </div>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="https://portfolio-rodri.web.app">
+                <input type="hidden" name="_captcha" value="false" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center text-md-start">
+          <img
+            src="img/contact.png"
+            class="img-fluid"
+            title="ilustracion decorativa"
+            alt="ilustracion decorativa"
+          />
         </div>
       </div>
     </section>
