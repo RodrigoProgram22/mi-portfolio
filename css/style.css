@@ -10,9 +10,6 @@
 body {
   background-color: rgb(242, 250, 247);
 }
-hr{
-  border: 6px solid;
-}
 a {
   text-decoration: none;
 }
@@ -179,10 +176,6 @@ h2 {
   width: 100px;
   object-fit: contain;
 }
-hr {
-  color: var(--primary);
-  border-radius: 8px;
-}
 /* Section Habilidades */
 .img-produc-2 {
   width: auto;
@@ -296,7 +289,10 @@ hr {
   display: flex;
   flex-direction: column;
 }
-
+.img-contacto{
+  width: 500px;
+  object-fit: contain;
+}
 .title {
   font-size: 24px;
   font-weight: 600;
